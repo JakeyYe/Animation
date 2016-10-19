@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_custom_view"
+        android:layout_width="match_parent"
+        android:elevation="10dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+    <!--设置android:elevation属性，使Toolbar呈现阴影效果-->
+
+    <!--自定义的View组件-->
+    <com.example.mrye.propertyanimation.View.CustomView
+        android:layout_marginTop="96dp"
+        android:padding="48dp"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/view" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="不断重绘图片"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp" />
+
+</RelativeLayout>

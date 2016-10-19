@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mrye.propertyanimation.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimaryDark">
+
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/view_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="View Animation(视图动画)"
+        android:textSize="16dp"/>
+    <Button
+        android:id="@+id/property_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Property Animation(属性动画)"
+        android:textSize="16dp"/>
+    <Button
+        android:id="@+id/customanimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="自定义动画"
+        android:textSize="16dp"/>
+    <Button
+        android:id="@+id/layouttransition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="布局容器动画"
+        android:textSize="16dp"/>
+    <Button
+        android:id="@+id/svg_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SVG动画"
+        android:textSize="16dp"/>
+</LinearLayout>

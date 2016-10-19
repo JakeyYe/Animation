@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_drawabletest"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+     <EditText
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/textstatecolor" />
+     <EditText
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/textstatecolor" />
+     <ImageView
+        android:layout_marginTop="12dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/image_drawable"/>
+     <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"/>
+        <ImageView
+            android:layout_alignTop="@id/start"
+            android:layout_toRightOf="@id/start"
+            android:layout_marginLeft="24dp"
+            android:src="@drawable/animatation"
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+     </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/start2"
+            android:text="Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/Image_tween_anim"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@id/start2"
+            android:layout_toRightOf="@id/start2"
+            android:layout_marginLeft="24dp"
+            android:src="@drawable/lufei"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

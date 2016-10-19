@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--获取焦点时-->
+    <item android:color="@color/colorPrimary"
+        android:state_focused="true"/>
+    <!--失去焦点时-->
+    <item android:color="@color/colorAccent"
+        android:state_focused="false"/>
+
+</selector>

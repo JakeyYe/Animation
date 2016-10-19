@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <!--逐帧动画-->
+    <!--animatiuon-list是显现按顺序图片层叠动态交替的效果，android:oneshot设置为false时会循环播放动画-->
+    <item android:drawable="@drawable/icon" android:duration="350"/>
+    <item android:drawable="@drawable/icon2" android:duration="350"/>
+    <item android:drawable="@drawable/icon3" android:duration="350"/>
+    <item android:drawable="@drawable/icon4" android:duration="350"/>
+    <item android:drawable="@drawable/icon5" android:duration="350"/>
+    <item android:drawable="@drawable/icon6" android:duration="350"/>
+
+</animation-list>
