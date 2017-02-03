@@ -1,6 +1,6 @@
 #Animation
 ##一个包含了多个动画种类Demo
-##包含：
+###包含：
 - View Animation 视图动画
 - 
 - Property Animation属性动画
